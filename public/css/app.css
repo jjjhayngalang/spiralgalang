@@ -1,0 +1,23 @@
+.spiral-container {
+    top: 5%;
+    left: 20%;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    height: 90%;
+    margin: 5% auto;
+    display: flex;
+}
+
+.container button {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    z-index: 1;
+    border: none;
+    height: 50px;
+    font-size: medium;
+    width: 120px;
+    cursor: pointer;
+    transform: translate(-50%, -10%);
+}
